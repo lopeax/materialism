@@ -11,7 +11,7 @@ var util = require('gulp-util');
 
 
 var src = 'assets';
-var dest = 'www/dist';
+var dest = 'dist';
 var bower = 'bower_components';
 
 var myPlumber = function() {
