@@ -1,0 +1,38 @@
+.fullWidth {
+    padding: ($spacing * 2) 0;
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    *zoom: 1;
+    margin: 0 auto;
+    max-width: $lg-container;
+    position: relative;
+    -webkit-transition: max-width 0.3s $standard;
+            transition: max-width 0.3s $standard;
+    width: $xs-container;
+
+    &:before,
+    &:after {
+        clear: both;
+        content: ' ';
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+@media (max-width: $md) {
+    .container {
+        max-width: $md-container;
+    }
+}
+
+@media (max-width: $sm) {
+    .container {
+        max-width: $sm-container;
+    }
+}

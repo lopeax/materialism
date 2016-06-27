@@ -1,3 +1,15 @@
 body {
-    color: $green;
+    *zoom: 1;
+    margin: 0;
+
+    &:before,
+    &:after {
+        clear: both;
+        content: ' ';
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
 }

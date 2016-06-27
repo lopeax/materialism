@@ -1,1 +1,23 @@
+// General
+$spacing: 16px;
+
+// Easings
+$standard: cubic-bezier(0.4, 0.0, 0.2, 1);
+$easeOut: cubic-bezier(0.0, 0.0, 0.2, 1);
+$easeIn: cubic-bezier(0.4, 0.0, 1, 1);
+$sharp: cubic-bezier(0.4, 0.0, 0.6, 1);
+
+// Colours
 $green: #0c8;
+
+// Media Queries
+$xxs: 400px;
+$xs: 768px;
+$sm: 992px;
+$md: 1200px;
+
+// Container widths
+$xs-container: calc(100% - #{$spacing * 2});
+$sm-container: 750px;
+$md-container: 970px;
+$lg-container: 1170px;
