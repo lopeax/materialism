@@ -1,6 +1,7 @@
 .fullWidth {
     position: relative;
     width: 100%;
+    padding: ($spacing * 4) 0;
 }
 
 .container {
@@ -8,7 +9,7 @@
     margin: 0 auto;
     max-width: $lg-container;
     position: relative;
-            transition: max-width 0.3s $standard;
+    transition: max-width 0.3s $standard;
     width: $xs-container;
 
     &:before,

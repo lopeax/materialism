@@ -48,7 +48,14 @@ gulp.task('clean:js', function() {
 });
 
 gulp.task('js', ['clean:js'], function() {
-    return gulp.src([src + "/js/app.js"], {
+    return gulp.src([
+        // Libraries
+        src + "/js/lib/jquery.min.js",
+        src + "/js/lib/packery.min.js",
+
+        // Core
+        src + "/js/app.js"
+    ], {
         base: '.'
     }).pipe(myPlumber())
       .pipe(sourcemaps.init())

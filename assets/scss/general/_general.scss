@@ -2,6 +2,11 @@ body {
     *zoom: 1;
     margin: 0;
     background-color: $offwhite;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: $offblack;
+    line-height: 1.5;
+    // letter-spacing: 0.5px;
 
     &:before,
     &:after {
