@@ -1,8 +1,9 @@
-@import "general/_variables.scss";
+// Variables
+@import "variables/_variables.scss";
 
 // General styles
 @import "general/_general.scss";
 @import "general/_container.scss";
 
-// Cards
-@import "general/_card.scss";
+// Components
+@import "components/_card.scss";

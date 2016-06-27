@@ -1,0 +1,11 @@
+// Media Queries
+$xxs: 400px;
+$xs: 768px;
+$sm: 992px;
+$md: 1200px;
+
+// Container widths
+$xs-container: calc(100% - #{$spacing * 4});
+$sm-container: 750px;
+$md-container: 970px;
+$lg-container: 1170px;

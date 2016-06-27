@@ -13,20 +13,3 @@ $shadow2: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 $shadow3: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 $shadow4: 0 16px 28px 0 rgba(0,0,0,0.22), 0 25px 55px 0 rgba(0,0,0,0.21);
 $shadow5: 0 27px 24px 0 rgba(0,0,0,0.2), 0 40px 77px 0 rgba(0,0,0,0.22);
-
-// Colours
-$offwhite: #FAFAFA;
-$white: #FFFFFF;
-$green: #0c8;
-
-// Media Queries
-$xxs: 400px;
-$xs: 768px;
-$sm: 992px;
-$md: 1200px;
-
-// Container widths
-$xs-container: calc(100% - #{$spacing * 4});
-$sm-container: 750px;
-$md-container: 970px;
-$lg-container: 1170px;
