@@ -1,5 +1,5 @@
 // General
-$spacing: 16px;
+$spacing: 8px;
 
 // Easings
 $standard: cubic-bezier(0.4, 0.0, 0.2, 1);
@@ -7,7 +7,16 @@ $easeOut: cubic-bezier(0.0, 0.0, 0.2, 1);
 $easeIn: cubic-bezier(0.4, 0.0, 1, 1);
 $sharp: cubic-bezier(0.4, 0.0, 0.6, 1);
 
+// Shadows
+$shadow1: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+$shadow2: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+$shadow3: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+$shadow4: 0 16px 28px 0 rgba(0,0,0,0.22), 0 25px 55px 0 rgba(0,0,0,0.21);
+$shadow5: 0 27px 24px 0 rgba(0,0,0,0.2), 0 40px 77px 0 rgba(0,0,0,0.22);
+
 // Colours
+$offwhite: #FAFAFA;
+$white: #FFFFFF;
 $green: #0c8;
 
 // Media Queries
@@ -17,7 +26,7 @@ $sm: 992px;
 $md: 1200px;
 
 // Container widths
-$xs-container: calc(100% - #{$spacing * 2});
+$xs-container: calc(100% - #{$spacing * 4});
 $sm-container: 750px;
 $md-container: 970px;
 $lg-container: 1170px;

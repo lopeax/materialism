@@ -1,0 +1,44 @@
+.card {
+    background-color: $white;
+    border-radius: 2px;
+    box-shadow: $shadow1;
+    float: left;
+    position: relative;
+    transition: box-shadow 0.3s $standard;
+    will-change: box-shadow;
+
+    &:hover {
+        box-shadow: $shadow3;
+    }
+
+    .rich {
+        background-color: #BDBDBD;
+        overflow: hidden;
+        padding-bottom: 56.25%; // 16:9 aspect ratio
+        position: relative;
+        width: 100%;
+
+        > .content {
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    .primary-title {
+        padding: ($spacing * 3) ($spacing * 2) ($spacing * 2) ($spacing * 2);
+        position: relative;
+    }
+
+    .actions {
+        padding: $spacing;
+        position: relative;
+    }
+
+    .support-text {
+        padding: ($spacing * 2) ($spacing * 2) ($spacing * 3) ($spacing * 2);
+        position: relative;
+    }
+}

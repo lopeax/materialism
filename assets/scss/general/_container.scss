@@ -1,5 +1,4 @@
 .fullWidth {
-    padding: ($spacing * 2) 0;
     position: relative;
     width: 100%;
 }
@@ -9,7 +8,6 @@
     margin: 0 auto;
     max-width: $lg-container;
     position: relative;
-    -webkit-transition: max-width 0.3s $standard;
             transition: max-width 0.3s $standard;
     width: $xs-container;
 
